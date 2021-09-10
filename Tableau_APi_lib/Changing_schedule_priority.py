@@ -3,6 +3,7 @@ from tableau_api_lib import TableauServerConnection
 from tableau_api_lib.utils.querying import get_schedules_dataframe
 print(sample_config)
 
+
 config={'tableau_prod': {'server': 'https://<YOUR_SERVER>.com',
    'api_version': '<YOUR_API_VERSION>',
    'username': '<YOUR_USERNAME>',
